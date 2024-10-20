@@ -1,0 +1,247 @@
+@import url("https://fonts.googleapis.com/css2?family=Young+Serif&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgba(243, 229, 215, 1);
+  .wrapper {
+    width: 100%;
+    max-width: 736px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(255, 255, 255, 1);
+    padding: 40px;
+    border-radius: 24px;
+    margin-bottom: 124px;
+    margin-top: 123px;
+    .top-image {
+      margin-bottom: 40px;
+    }
+    .recipe {
+      margin-bottom: 32px;
+      h1 {
+        font-family: "Young Serif", serif;
+        font-size: 40px;
+        font-weight: 400;
+        line-height: 40px;
+        text-align: left;
+        margin-bottom: 24px;
+        color: rgba(49, 46, 44, 1);
+      }
+      p {
+        font-family: "Outfit", sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: left;
+        color: rgba(95, 86, 77, 1);
+      }
+    }
+    .preparation-time {
+      width: 100%;
+      max-width: 656px;
+      background-color: rgba(255, 247, 251, 1);
+      padding: 28px;
+      border-radius: 12px;
+      margin-bottom: 32px;
+      h2 {
+        font-family: "Outfit", sans-serif;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 20px;
+        text-align: left;
+        color: rgba(122, 40, 78, 1);
+        margin-bottom: 16px;
+      }
+      ul {
+        display: flex;
+        flex-direction: column;
+        row-gap: 8px;
+        li {
+          &::marker {
+            color: rgba(122, 40, 78, 1);
+          }
+          padding-left: 16px;
+          margin-left: 25px;
+          span {
+            font-family: "Outfit", sans-serif;
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 24px;
+            text-align: left;
+            color: rgba(95, 86, 77, 1);
+          }
+          font-family: "Outfit", sans-serif;
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 24px;
+          text-align: left;
+          color: rgba(95, 86, 77, 1);
+        }
+      }
+    }
+    .ingredients {
+      padding-bottom: 32px;
+      border-bottom: 1px solid rgba(227, 221, 215, 1);
+      h3 {
+        font-family: "Young Serif", serif;
+        font-size: 28px;
+        font-weight: 400;
+        line-height: 28px;
+        text-align: left;
+        color: rgba(133, 70, 50, 1);
+        margin-bottom: 24px;
+      }
+      ul {
+        display: flex;
+        flex-direction: column;
+        row-gap: 8px;
+        li {
+          padding-left: 16px;
+          margin-left: 25px;
+          font-family: "Outfit", sans-serif;
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 24px;
+          text-align: left;
+          color: rgba(95, 86, 77, 1);
+          &::marker {
+            color: rgba(133, 70, 50, 1);
+          }
+        }
+      }
+    }
+    .instructions {
+      padding: 32px 0px;
+      border-bottom: 1px solid rgba(227, 221, 215, 1);
+      h4 {
+        font-family: "Young Serif", serif;
+        font-size: 28px;
+        font-weight: 400;
+        line-height: 28px;
+        text-align: left;
+        color: rgba(133, 70, 50, 1);
+        margin-bottom: 24px;
+      }
+      ol {
+        display: flex;
+        flex-direction: column;
+        row-gap: 8px;
+        li {
+          padding-left: 16px;
+          margin-left: 25px;
+          &::marker {
+            font-family: "Outfit", sans-serif;
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 24px;
+            text-align: left;
+            color: rgba(133, 70, 50, 1);
+          }
+          span {
+            font-family: "Outfit", sans-serif;
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 24px;
+            text-align: left;
+            color: rgba(95, 86, 77, 1);
+          }
+          font-family: "Outfit", sans-serif;
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 24px;
+          text-align: left;
+          color: rgba(95, 86, 77, 1);
+        }
+      }
+    }
+    .nutrition {
+      h5 {
+        padding-top: 32px;
+        font-family: "Young Serif", serif;
+        font-size: 28px;
+        font-weight: 400;
+        line-height: 28px;
+        text-align: left;
+        color: rgba(133, 70, 50, 1);
+        margin-bottom: 24px;
+      }
+      h6 {
+        font-family: "Outfit", sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: left;
+        margin-bottom: 24px;
+        color: rgba(95, 86, 77, 1);
+      }
+      table {
+        border-collapse: collapse;
+        width: 100%;
+        tr {
+          border-bottom: 1px solid rgba(227, 221, 215, 1);
+          padding-bottom: 12px;
+          th {
+            text-align: left;
+            padding-top: 12px;
+            padding-left: 32px;
+            padding-bottom: 12px;
+            color: rgba(95, 86, 77, 1);
+            font-family: "Outfit", sans-serif;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+            text-align: left;
+          }
+          td {
+            font-family: "Outfit", sans-serif;
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 24px;
+            text-align: left;
+            color: rgba(133, 70, 50, 1);
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 767px) {
+  body {
+    .wrapper {
+      margin: 0;
+      padding: 0;
+      .top-image {
+        width: 100%;
+        max-width: 100%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .recipe {
+        padding-left: 16px;
+        padding-right: 16px;
+      }
+      .preparation-time {
+        padding-left: 16px;
+        padding-right: 16px;
+      }
+      .ingredients {
+        padding-left: 16px;
+        padding-right: 16px;
+      }
+      .instructions {
+        padding-left: 16px;
+        padding-right: 16px;
+      }
+      .nutrition {
+        padding-left: 16px;
+        padding-right: 16px;
+      }
+    }
+  }
+}

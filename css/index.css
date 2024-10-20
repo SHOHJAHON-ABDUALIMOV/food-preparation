@@ -1,0 +1,244 @@
+@import url("https://fonts.googleapis.com/css2?family=Young+Serif&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(243, 229, 215);
+}
+body .wrapper {
+  width: 100%;
+  max-width: 736px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(255, 255, 255);
+  padding: 40px;
+  border-radius: 24px;
+  margin-bottom: 124px;
+  margin-top: 123px;
+}
+body .wrapper .top-image {
+  margin-bottom: 40px;
+}
+body .wrapper .recipe {
+  margin-bottom: 32px;
+}
+body .wrapper .recipe h1 {
+  font-family: "Young Serif", serif;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 40px;
+  text-align: left;
+  margin-bottom: 24px;
+  color: rgb(49, 46, 44);
+}
+body .wrapper .recipe p {
+  font-family: "Outfit", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: rgb(95, 86, 77);
+}
+body .wrapper .preparation-time {
+  width: 100%;
+  max-width: 656px;
+  background-color: rgb(255, 247, 251);
+  padding: 28px;
+  border-radius: 12px;
+  margin-bottom: 32px;
+}
+body .wrapper .preparation-time h2 {
+  font-family: "Outfit", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 20px;
+  text-align: left;
+  color: rgb(122, 40, 78);
+  margin-bottom: 16px;
+}
+body .wrapper .preparation-time ul {
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+}
+body .wrapper .preparation-time ul li {
+  padding-left: 16px;
+  margin-left: 25px;
+  font-family: "Outfit", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: rgb(95, 86, 77);
+}
+body .wrapper .preparation-time ul li::marker {
+  color: rgb(122, 40, 78);
+}
+body .wrapper .preparation-time ul li span {
+  font-family: "Outfit", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: left;
+  color: rgb(95, 86, 77);
+}
+body .wrapper .ingredients {
+  padding-bottom: 32px;
+  border-bottom: 1px solid rgb(227, 221, 215);
+}
+body .wrapper .ingredients h3 {
+  font-family: "Young Serif", serif;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+  color: rgb(133, 70, 50);
+  margin-bottom: 24px;
+}
+body .wrapper .ingredients ul {
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+}
+body .wrapper .ingredients ul li {
+  padding-left: 16px;
+  margin-left: 25px;
+  font-family: "Outfit", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: rgb(95, 86, 77);
+}
+body .wrapper .ingredients ul li::marker {
+  color: rgb(133, 70, 50);
+}
+body .wrapper .instructions {
+  padding: 32px 0px;
+  border-bottom: 1px solid rgb(227, 221, 215);
+}
+body .wrapper .instructions h4 {
+  font-family: "Young Serif", serif;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+  color: rgb(133, 70, 50);
+  margin-bottom: 24px;
+}
+body .wrapper .instructions ol {
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+}
+body .wrapper .instructions ol li {
+  padding-left: 16px;
+  margin-left: 25px;
+  font-family: "Outfit", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: rgb(95, 86, 77);
+}
+body .wrapper .instructions ol li::marker {
+  font-family: "Outfit", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: left;
+  color: rgb(133, 70, 50);
+}
+body .wrapper .instructions ol li span {
+  font-family: "Outfit", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: left;
+  color: rgb(95, 86, 77);
+}
+body .wrapper .nutrition h5 {
+  padding-top: 32px;
+  font-family: "Young Serif", serif;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+  color: rgb(133, 70, 50);
+  margin-bottom: 24px;
+}
+body .wrapper .nutrition h6 {
+  font-family: "Outfit", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  margin-bottom: 24px;
+  color: rgb(95, 86, 77);
+}
+body .wrapper .nutrition table {
+  border-collapse: collapse;
+  width: 100%;
+}
+body .wrapper .nutrition table tr {
+  border-bottom: 1px solid rgb(227, 221, 215);
+  padding-bottom: 12px;
+}
+body .wrapper .nutrition table tr th {
+  text-align: left;
+  padding-top: 12px;
+  padding-left: 32px;
+  padding-bottom: 12px;
+  color: rgb(95, 86, 77);
+  font-family: "Outfit", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+}
+body .wrapper .nutrition table tr td {
+  font-family: "Outfit", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: left;
+  color: rgb(133, 70, 50);
+}
+
+@media only screen and (max-width: 767px) {
+  body .wrapper {
+    margin: 0;
+    padding: 0;
+  }
+  body .wrapper .top-image {
+    width: 100%;
+    max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  body .wrapper .recipe {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  body .wrapper .preparation-time {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  body .wrapper .ingredients {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  body .wrapper .instructions {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  body .wrapper .nutrition {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}/*# sourceMappingURL=index.css.map */
